@@ -1,0 +1,29 @@
+In Postman, you can easily make a POST request to your server's /tasks endpoint to create a new task. Here's a step-by-step guide:
+
+Open Postman: 
+If you don't have Postman installed, you can download and install it from https://www.postman.com/.
+
+Create a New Request:
+Open Postman.
+Click on the "New" button to create a new request.
+
+Set up the Request:
+Choose the HTTP method as POST.
+Enter the URL of your server, including the /tasks endpoint (e.g., http://localhost:3000/tasks).
+
+Add Request Body:
+In the request builder, go to the "Body" tab.
+Select the raw option.
+Choose the JSON (application/json) option from the dropdown.
+Enter the JSON data for your new task. For example:
+Copy code
+{
+  "description": "Your new task description here"
+}
+
+
+Send the Request:
+Click the "Send" button to send the POST request to your server.
+View the Response:
+
+You will see the response from your server in the lower part of the Postman window. It should include the details of the newly created task, such as its ID.
